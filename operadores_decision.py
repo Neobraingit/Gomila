@@ -14,3 +14,5 @@ if nombre != 'Marcos':
     print ('Ese no es su nombre')
 else:
     print ('Nombre correcto')
+    
+# elif
