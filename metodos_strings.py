@@ -20,3 +20,12 @@ print (s.lstrip()) # Elimina los espacios sobrantes al principio del string
 print (s.find('Y')) # Busca el caracter o string que le indiquemos y nos dará su índice en la primera posición en la que aparece. Podemos darle parámetros para indicar donde empieza y finaliza la búsqueda (start, end)
 print (s.index('HEAVY')) # Busca la primera vez en la que aparece un string o caracter
 print (s.rindex('S')) # Nos busca el caracter y nos devuelve la primera y la última posición en la que fue encontrado
+print (len(s)) # Nos muestra el número de caracteres de un string contando también los espacios
+print (type(s)) # Nos muestra la clase de dato con el que estamos trabajando
+
+### Input ###
+# Nos sirve para que el ususario introduzca un string o un valor de tipo numérico o booleano 
+print ('¿Cuál es tu grupo preferido? ')
+grupo = (input())
+print ('Tu grupo preferido es, {}'.format(grupo))
+
