@@ -26,7 +26,7 @@ print (type(s)) # Nos muestra la clase de dato con el que estamos trabajando
 ### Input ###
 # Nos sirve para que el ususario introduzca un string o un valor de tipo numérico o booleano 
 print ('¿Cuál es tu grupo preferido? ')
-grupo = (input())
+grupo = (input('Grupo: '))
 print ('Tu grupo preferido es, {}'.format(grupo))
 
 
