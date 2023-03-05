@@ -4,3 +4,9 @@
 es_adulto = True
 print (type(es_adulto)) # Con esto sabemos que tipo de valor es; en este caso es un dato booleano que nos da True
 
+# OPERADORES LÓGICOS
+
+# not  Operador de negación
+# and  Operador y
+# or Operador o
+
