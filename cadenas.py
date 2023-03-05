@@ -16,8 +16,20 @@ print (string1)
 s1 = "Juan: \"me gusta el chocolate\"" # Aquí con la barra escapante  podemos poner dos veces las comillas dobles
 print (s1)
 
-s2 = 'Ricardo dijo: \'me gusta la playa\'' # Lo mismo que lo anterior pero con comillas simples
+s2 = 'Ricardo dijo: \'me gusta la playa\' ' # Lo mismo que lo anterior pero con comillas simples
 print (s2)
 
 s3 = 'Con diez cañones por banda, \nviento en popa a toda vela' # Aquí hacemos un salto de línea
 print (s3)
+
+# CONCATENACIÓN DE STRINGS
+
+print (s2 + s3) # Concatenamos los dos strings con el símnbolo +
+
+# REPETICIÓN DE STRINGS
+
+print (s2 * 5) # Repetimos el string guardado en una variable 5 veces
+
+
+
+
