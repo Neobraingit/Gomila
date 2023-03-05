@@ -1,0 +1,1 @@
+variable = 'Esto es una variable'
