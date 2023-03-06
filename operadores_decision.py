@@ -16,3 +16,18 @@ else:
     print ('Nombre correcto')
     
 # elif
+
+# Es una mezcla entre if y else
+
+
+nombre = 'Marcos'
+if nombre != 'Marcos':
+    print ('Ese no es su nombre')
+elif nombre == 'Marcos':
+    print (nombre)
+else:
+    print ('Nombre correcto')
+
+
+
+
