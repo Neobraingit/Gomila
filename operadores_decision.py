@@ -27,6 +27,8 @@ elif nombre == 'Marcos':
     print (nombre)
 else:
     print ('Nombre correcto')
+    
+
 
 
 
