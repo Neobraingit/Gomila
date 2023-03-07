@@ -61,7 +61,12 @@ lista1.reverse() # Nos devuelve la lista en orden inverso
 print (lista1)
 
 
-# Conversión a listas
+# Conversión a listas: para convertir un objeto a una lista hay que usar list()
+
+print (list(range(0, 100, 10))) # Da error porque tenemos una lista llamada list más arriba, pero es así
+
+# Listas anidadas
+
 
 
 
