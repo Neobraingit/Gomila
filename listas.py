@@ -31,6 +31,43 @@ print (nombres)
 for i in range (len(nombres)): # Imprimimos todos los valores de una lista usando sus índices
     print (nombres[i])
 
+# También se puede hacer así:
+
+for i in nombres:
+    print (i)
+    
+
+# Concatenación y repetición de listas
+
+lista1 = ['Perro', 'Gato', 'Canario']
+lista2 = ['León', 'Guepardo', 'Jirafa']
+print (lista1 + lista2) # Aquí vemos como se concatenan dos listas dando como resultado una lista que contiene los items de las dos
+
+print (lista2 * 3) # Aquí hacemos repetición de listas
+
+# Más métodos de listas
+
+print (lista1.count('Perro')) # Cuenta la cantidad de veces que aparece el elemtno indicado
+lista1.extend('Pantera') # Añade un elemento iterable
+print (lista1)
+print (lista1.index('Perro')) # Nos muestra el índice donde aparece el valor que le metamos
+lista1.pop() # Borra el último de la lista
+print (lista1)
+lista1.remove('Perro') # Borra el elemento pasado en su primera aparición
+print (lista1)
+lista1.sort() # Devuelve la lista ordenada
+print (lista1)
+lista1.reverse() # Nos devuelve la lista en orden inverso
+print (lista1)
+
+
+# Conversión a listas
+
+
+
+
+
+
 
 
 
