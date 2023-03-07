@@ -28,7 +28,8 @@ print (nombres)
 
 # Bucles con listas
 
-
+for i in range (len(nombres)): # Imprimimos todos los valores de una lista usando sus índices
+    print (nombres[i])
 
 
 
