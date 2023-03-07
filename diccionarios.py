@@ -20,3 +20,24 @@ usuario['Nombre'] = str(input())
 print ('Introduce tu edad: ')
 usuario['Edad'] = int(input())
 print (usuario)
+
+# Tamaño de diccionario
+
+print (len(usuario)) # Nos dice el tamaño de un diccionario
+
+
+# Bucle y diccionarios
+
+for i in usuario:
+    print (i)
+    
+# Diccionarios y listas
+
+# Un diccionario puede contener listas y viceversa
+
+diccionario = {'Nombre' : ['Marcos', 'Eva', 'David', 'Marta']}
+print (diccionario['Nombre'])
+
+
+# Más métodos de diccionarios
+
