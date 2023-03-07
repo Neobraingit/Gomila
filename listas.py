@@ -65,8 +65,6 @@ print (lista1)
 
 print (list(range(0, 100, 10))) # Da error porque tenemos una lista llamada list más arriba, pero es así
 
-# Listas anidadas
-
 
 
 
