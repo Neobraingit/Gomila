@@ -67,5 +67,5 @@ print(nombres2.update(dic4={'Nombre': 'David'}))
 # Convertir a diccionario con dict()
 
 l = [['x', 2], ['y', 3]]
-dict(l)
+dict(l) # Creamos un diccionario a partir de una lista que debe tener dos elementos para hacer clave y valor
 print(l)
