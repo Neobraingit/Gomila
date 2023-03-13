@@ -9,3 +9,6 @@ print (nombre1)
 print (nombre2)
 print (nombre3)
 print (nombre4)
+
+# Si el número de variantes no coincide con el número de elementos de la tupla usaremos un asterisco *
+
